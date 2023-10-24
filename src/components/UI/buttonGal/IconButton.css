@@ -1,0 +1,33 @@
+.icon-button {
+    width: 5%; /* Например, 20% от ширины родительского контейнера */
+    padding:  2%;
+    cursor: pointer;
+}
+
+
+.icon-button.left,
+.icon-button.left.disable {
+    background: url(../../../icons/LeftArrowActive.svg)
+    center/100% 100% no-repeat;
+}
+
+.icon-button.right,
+.icon-button.right.disable {
+    background: url(../../../icons/RightArrowActive.svg)
+    center/100% 100% no-repeat;
+}
+
+.icon-button.left:hover {
+    background: url(../../../icons/LeftArrowDis.svg)
+    center/100% 100% no-repeat;
+}
+
+.icon-button.right:hover {
+    background: url(../../../icons/RightArrowDis.svg)
+    center/100% 100% no-repeat;
+}
+
+.icon-button.left.disable,
+.icon-button.right.disable {
+    pointer-events: none;
+}

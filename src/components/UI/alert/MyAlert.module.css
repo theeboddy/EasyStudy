@@ -1,0 +1,102 @@
+.myAlert {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+    
+}
+
+.myAlertContent {
+    min-height: 300px;
+    background: #3D3D3D;
+    min-width: 400px;
+    border-radius: 16px;
+    overflow: hidden;
+    
+}
+
+.myAlertTitleBlock {
+    height: 70px;
+    display: flex;
+    
+    align-items: center;
+    background: yellow;
+    
+    border-top-left-radius: 16px; /* Устанавливаем скругление левого верхнего угла */
+    border-top-right-radius: 16px; /* Устанавливаем скругление правого верхнего угла */
+    
+}
+
+.titleContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.myAlertTitle {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.starFormLeft {
+    width: 70px;
+    margin-top: 35px;
+
+}
+
+.starFormRight {
+    width: 100px;
+    margin-top: -15px;
+}
+
+.myAlert.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 1s;
+}
+
+.infoBlock {
+    margin-top: 60px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+
+.myAlertBlock {
+    display: block;
+    justify-content: center;
+    height: 100px;
+    padding-left: 15px;
+}
+
+.myAlertText{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.myAlertblockBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.myAlertCloseBtn {
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    background-color: #FC7EE4;
+    font-weight: bold;
+}

@@ -1,0 +1,128 @@
+
+.inputBlock {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    height: auto;
+}
+
+  
+.TextPlaceholder {
+    font-family: 'Inter', sans-serif;
+    margin-right: 1%;
+    font-size: 200%;
+}
+
+.settingInput {
+    border-radius: 15px;
+    width: 65%;
+    padding-left: 1%;
+    height:40%;
+}
+
+.settingSelect {
+    border-radius: 15px;
+    width: 45%;
+    border: 2px solid black;
+    padding: 0.7%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: white;
+}
+
+.problemInputBlock {
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 14.2%;
+    margin-bottom: 2%;
+}
+
+
+
+  .commentInputBlock {
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 11%;
+    margin-bottom: 5%;
+  }
+
+.settingComInput {
+    min-width: 51%;
+    max-width: 51%;
+    border-radius: 15px;
+    min-height: 100px;
+    padding: 0.7%;
+    max-height: 250px;
+    border: 2px solid black;
+    margin-bottom: 1%;
+}
+
+.buttonBlock {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.sendBtn {
+    width: 35%;
+    height: 40%;
+    border: 3px solid black;
+    border-radius: 60px;
+    background-color: #FC7EE4;
+
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+.sendBtn p {
+    font-weight: bold;
+    font-size: 270%;
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 1115px) {
+    .sendBtn p {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 635px) {
+    .sendBtn p {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 480px) {
+    .sendBtn p {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 1115px) {
+    .TextPlaceholder {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 635px) {
+    .TextPlaceholder {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 1115px) {
+    .settingSelect {
+        font-size:70%;
+    }
+}
+
+@media (max-width: 635px) {
+    .settingSelect {
+        font-size: 50%;
+    }
+}

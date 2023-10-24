@@ -1,0 +1,184 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+    
+}
+
+.myModalContent {
+    height: auto;
+    background: #3D3D3D;
+    min-width: 25%;
+    width: 20%;
+    border-radius: 16px;
+    overflow: hidden; 
+}
+
+.myModalTitleBlock {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+    overflow: hidden;
+    border-top-left-radius: 16px; /* Устанавливаем скругление левого верхнего угла */
+    border-top-right-radius: 16px; /* Устанавливаем скругление правого верхнего угла */
+    
+}
+
+.titleContainer {
+    margin-top: 4%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.myModalTitle {
+    font-size: 170%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    
+}
+
+.starFormLeft_block {
+    width: 20%;
+}
+
+.starFormLeft {
+    
+    width: 40%;
+    margin-right: -5%;
+    z-index: 5;
+}
+
+.starFormRight_block {
+    position: absolute; /* Устанавливаем позицию как абсолютную */
+    top: 12%; /* Помещаем блок в верхнюю часть родительского блока */
+    width: 10%;
+    left: 55%; /* Позиционируем в середине блока */
+    transform: translateX(-50%); /* Сдвигаем блок влево на половину своей ширины */
+    z-index: 0
+}
+
+.starFormRight {
+    position: relative;
+    width: 41%;
+    margin-left: 50%;
+    z-index: 0;
+    margin-top: -21%;
+}
+
+.myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.infoBlock {
+    padding: 5%;
+}
+
+.course{
+    margin-bottom: 1%;
+}
+
+.courseText{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 90%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.coursePrice {
+    color: #EDE73B;
+    font-family: 'Inter', sans-serif;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+@media (max-width: 1015px) {
+    .myModalTitle {
+        font-size: 140%;
+    }
+}
+
+@media (max-width: 1015px) {
+    .courseText {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1015px) {
+    .coursePrice {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 820px) {
+    .myModalTitle {
+        font-size: 110%;
+    }
+}
+
+@media (max-width: 820px) {
+    .courseText {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 820px) {
+    .coursePrice {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 615px) {
+    .myModalTitle {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 615px) {
+    .courseText {
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 615px) {
+    .coursePrice {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 470px) {
+    .myModalTitle {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 470px) {
+    .courseText {
+        font-size: 30%;
+    }
+}
+
+@media (max-width: 470px) {
+    .coursePrice {
+        font-size: 40%;
+    }
+}
+
+
+
+@media (max-width: 470px) {
+    .myModalContent {
+        width: 40%;
+    }
+}
