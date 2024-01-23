@@ -49,7 +49,6 @@ const MyForm = () => {
             })
             .then((res) => {
                 
-              // Очистить поля формы после успешной отправки
                 setName('');
                 setTelegram('');
                 setEmail('');
@@ -57,20 +56,16 @@ const MyForm = () => {
                 setComment('');
                 setRequestCount(requestCount + 1);
                 setModal(true);
-                setTimeout(() => {
-                    setModal(false);
-                  }, 5000);
+
             })
             .catch((err) => {
               // Обработка ошибки
             });
         };
     
-        // Добавить обработчик события submit
         const form = document.getElementById('tg');
         form.addEventListener('submit', handleSubmit);
-    
-        // Убрать обработчик события submit при размонтировании компонента
+        
         return () => {
             form.removeEventListener('submit', handleSubmit);
         };
@@ -79,27 +74,6 @@ const MyForm = () => {
 
     return (
         <form id="tg" className={cl.form}>
-            {/* <div className={cl.form_block}>
-                <div className={cl.TextPlaceholder_block}>
-                    <h2 className={cl.TextPlaceholder} >Имя</h2>
-                    <h2 className={cl.TextPlaceholder}>Телеграм</h2>
-                    <h2 className={cl.TextPlaceholder}>Почта</h2>
-                    <h2 className={cl.TextPlaceholder}>Проблема</h2>
-                    <h2 className={cl.TextPlaceholder}>Комментарий</h2>
-                </div>
-                <div className={cl.inputs_block}>
-                    <MyInput name="name" className={cl.settingInput} value={name} onChange={e => setName(e.target.value)}/>
-                    <MyInput name="telegram" className={cl.settingInput} value={telegram} onChange={e => setTelegram(e.target.value)}/>
-                    <MyInput name="email" className={cl.settingInput} value={email} onChange={e => setEmail(e.target.value)}/>
-                    <select name="problem" className={cl.settingInput} value={problem} onChange={e => setProblem(e.target.value)}>
-                        <option disabled>Выберите вид работы</option>
-                        <option>Курсовая</option>
-                        <option>Диплом</option>
-                        <option>Отчет</option>
-                    </select>
-                    <textarea name="comment" className={cl.settingComInput} value={comment} onChange={e => setComment(e.target.value)} />
-                </div>
-            </div> */}
 
             <div className={cl.inputBlock}>
                 <h2 className={cl.TextPlaceholder} >Имя</h2>
@@ -119,7 +93,8 @@ const MyForm = () => {
                     <option disabled>Выберите вид работы</option>
                     <option>Курсовая</option>
                     <option>Диплом</option>
-                    <option>Отчет</option>
+                    <option>Отчетная работа</option>
+                    <option>Практическая работа</option>
                 </select>
             </div>
             <div className={cl.inputBlock}>

@@ -1,0 +1,99 @@
+.prepayment_section {
+    height: auto;
+    width: auto;
+    
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+
+}
+
+.prepaymentImg {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+    position: contain;
+}
+
+.Title2_block {
+    margin-bottom: -7%;
+    display: flex;
+    justify-content: center;
+}
+
+.Title2 {
+    z-index: 1;
+    width: 50%;
+    position: relative;
+    
+}
+
+.prepayment_block {
+    position:absolute;
+    z-index: 1;
+    width: 70%;
+    height: 70%;
+    border: 3px solid black;
+    border-radius: 3ex;
+    background-color: rgba(7, 6, 6, 0.7);
+    margin: 0 auto; 
+    margin-top: 5%;
+    padding: 6%;
+    top: 50%; /* Положение сверху в 50% от родительской секции */
+    left: 50%; /* Положение слева в 50% от родительской секции */
+    transform: translate(-50%, -50%);
+}
+
+.prepayment_block_text p {
+    font-size: 200%;
+    opacity: 1.5;
+    color: #FFF2ED;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+.prepayment_block_img_block {
+    display: flex;
+    width: 80%;
+}
+
+.exCourse1,
+.exCourse2 {
+    width: 50%;
+    height: 70%;
+    margin-right: 30%;
+}
+
+@media (max-width: 1360px) {
+    .prepayment_block_text p {
+        font-size: 138%;
+    }
+}
+
+@media (max-width: 900px) {
+    .prepayment_block_text p {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 675px) {
+    .prepayment_block_text p {
+        font-size: 70%;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .prepayment_block_text p {
+        font-size: 40%;
+    }
+}
+
+ @media (max-width: 370px) {
+    .prepayment_block_text p {
+        font-size: 35%;
+    }
+}

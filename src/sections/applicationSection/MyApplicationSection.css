@@ -1,0 +1,78 @@
+.application_section {
+    height: auto;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.lowBack1 {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.logo_container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 23%;
+    /* Выравнивание по вертикали */
+}
+
+.logo {
+    z-index: 1;
+    margin: 1% 0;
+    width: 40%;
+    height: 10%;
+
+}
+
+.application_container {
+    position: relative;
+    height: 15%;
+    z-index: 1;
+    margin-bottom: 40%;
+}
+
+.applicationBtn {
+    z-index: 1;
+    width: 29%;
+    height: 45%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 10%;
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+
+.applicationBtn p {
+    font-weight: bold;
+    font-size: 200%;
+    margin: 0;
+}
+
+@media (max-width: 897px) {
+    .applicationBtn p {
+        font-size: 160%;
+    }
+}
+
+@media (max-width: 745px) {
+    .applicationBtn p {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .applicationBtn p {
+        font-size: 60%;
+    }
+}

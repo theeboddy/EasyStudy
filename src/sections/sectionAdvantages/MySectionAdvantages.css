@@ -1,0 +1,109 @@
+.section_advantages {
+    height: auto;
+    
+    display: flex;
+   background-color: #1A1B1C;
+}
+
+.section_advantages_image_block {
+    width: 35%; /* Устанавливаем фиксированную ширину, которая меньше 620px */
+    margin-left: 3%;
+}
+
+.starICan {
+    width: 100%; /* Устанавливаем ширину картинки в 100% от родительского контейнера */
+    max-width: 450px; /* Опционально, устанавливаем максимальную ширину картинки */
+}
+
+.section_advantages_block {
+    margin-top: 4%;
+    display: flex;
+
+}
+
+.section_advantages_subblock {
+    margin-right: 10%;
+}
+
+.advantage_block {
+    width: 100%;
+    height: 16%;
+     background-color: #343636;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-bottom: 15%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.advantage_block h2 {
+    margin: 0;
+}
+
+.advantage_block_image {
+    width: 35%;
+    margin-left: 4%;
+    margin-right: -5%;
+}
+
+.advantage_block_image1 {
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.Ad_image {
+    width: 45%;
+    height: auto;
+}
+
+.Ad1_image {
+    width: 70%;
+    height: auto;
+}
+
+.Ad2_image {
+    width: 60%;
+    height: auto;
+}
+
+.advantage_text {
+    font-family: 'Inter', sans-serif;
+    color: #EDE73B;
+    font-size: 170%;
+}
+.advantage_block_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1340px) {
+    .advantage_text {
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 1185px) {
+    .advantage_text {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 965px) {
+    .advantage_text {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 730px) {
+    .advantage_text {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 420px) {
+    .advantage_text {
+        font-size: 35%;
+    }
+}

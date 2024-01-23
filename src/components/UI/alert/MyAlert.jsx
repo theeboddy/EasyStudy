@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import cls from './MyAlert.module.css'
 import starLeft from '../../../icons/StarFormLeft.png';
 import starRight from '../../../icons/StarFormRight.png'
@@ -6,6 +6,18 @@ import starRight from '../../../icons/StarFormRight.png'
 const MyAlert = ({visible, setVisible}) => {
 
     const MyAlertClasses = [cls.myAlert]
+
+    useEffect(() => {
+        if (visible) {
+          document.body.style.overflow = "hidden"; // Заблокировать прокрутку тела
+        } else {
+          document.body.style.overflow = "auto"; // Разблокировать прокрутку тела
+        }
+    
+        return () => {
+          document.body.style.overflow = "auto"; // Восстановить прокрутку при размонтировании компонента
+        };
+      }, [visible]);
 
     if(visible) {
         MyAlertClasses.push(cls.active)

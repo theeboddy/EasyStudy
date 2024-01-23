@@ -11,21 +11,20 @@
 }
 
 .myAlertContent {
-    min-height: 300px;
+    min-height: 26%;
     background: #3D3D3D;
-    min-width: 400px;
+    width: 35%;
+    
     border-radius: 16px;
     overflow: hidden;
     
 }
 
 .myAlertTitleBlock {
-    height: 70px;
+    height: 5%;
     display: flex;
-    
     align-items: center;
     background: yellow;
-    
     border-top-left-radius: 16px; /* Устанавливаем скругление левого верхнего угла */
     border-top-right-radius: 16px; /* Устанавливаем скругление правого верхнего угла */
     
@@ -39,21 +38,20 @@
 }
 
 .myAlertTitle {
-    font-size: 30px;
+    font-size: 180%;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    margin-left: 30px;
+    margin-bottom: 0;
 }
 
 .starFormLeft {
-    width: 70px;
-    margin-top: 35px;
+    width: 7%;
 
 }
 
 .starFormRight {
-    width: 100px;
-    margin-top: -15px;
+    width: 10%;
+    margin-top: -6%;
 }
 
 .myAlert.active {
@@ -64,39 +62,104 @@
 }
 
 .infoBlock {
-    margin-top: 60px;
+    margin-top: 3%;
     width: 100%;
     display: block;
     justify-content: center;
+    margin: 3% auto;
 }
 
 .myAlertBlock {
     display: block;
     justify-content: center;
-    height: 100px;
-    padding-left: 15px;
+    height: 10%;
+    
 }
 
 .myAlertText{
     color: white;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    display: block;
-    margin-bottom: 10px;
+    font-size: 120%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
 }
 
 .myAlertblockBtn {
     display: flex;
     justify-content: center;
+    height: 30%;
+    margin-top: 3%;
 }
 
 .myAlertCloseBtn {
-    width: 150px;
-    height: 40px;
+    width: 25%;
+    height: 40%;
     border: 2px solid black;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 100%;
     font-family: 'Inter', sans-serif;
     background-color: #FC7EE4;
     font-weight: bold;
 }
+
+@media (max-width: 1085px) {
+    .myAlertTitle {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 1085px) {
+    .myAlertText {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 1085px) {
+    .myAlertCloseBtn {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    .myAlertTitle {
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 900px) {
+    .myAlertText {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    .myAlertCloseBtn {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 680px) {
+    .myAlertTitle {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 680px) {
+    .myAlertText {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 680px) {
+    .myAlertCloseBtn {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 680px) {
+    .myAlertContent {
+        width: 60%;
+    }
+}
+

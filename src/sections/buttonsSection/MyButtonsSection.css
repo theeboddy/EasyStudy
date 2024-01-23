@@ -1,0 +1,262 @@
+.buttons_section {
+    height: auto;
+
+}
+
+.service_container {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.section_container_subblock {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+.practicalWorkBtn {
+    width: 130%;
+    height: 65%;
+    border: 3px solid black;
+    border-radius: 60px;
+    background-color: #0F775E;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 4%;
+    z-index: 1;
+}
+
+.practicalWorkBtn p {
+    margin: 0;
+    font-size: 250%;
+}
+
+.courseBtn {
+    width: 130%;
+    height: 65%;
+    border: 3px solid black;
+    border-radius: 60px;
+    background-color: #EDE73B;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 4%;
+}
+
+.courseBtn p {
+    margin: 0;
+    font-size: 250%;
+}
+
+.literatureBtn {
+    background-color: #DD7800;
+    width: 130%;
+    height: 65%;
+    border: 3px solid black;
+    border-radius: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 4%;
+}
+
+.literatureBtn p {
+    margin-bottom: 0;
+    font-size: 250%;
+}
+
+.diplomaBtn {
+    width: 130%;
+    height: 65%;
+    border: 3px solid black;
+    border-radius: 60px;
+    font-weight: bold;
+    background-color: #FFF2ED;
+    cursor: pointer;
+    margin-bottom: 4%;
+    z-index: 1;
+
+}
+
+
+.diplomaBtn p {
+    margin: 0;
+    font-size: 250%;
+}
+
+.scientificWorkBtn {
+    width: 130%;
+    height: 65%;
+    border: 3px solid black;
+    border-radius: 60px;
+    font-weight: bold;
+    background-color: #47C3F1;
+    cursor: pointer;
+    margin-bottom: 4%;
+}
+
+.scientificWorkBtn p {
+    margin: 0;
+    font-size: 250%;
+}
+
+.practiceReportBtn {
+    width: 130%;
+    height: 65%;
+    border: 3px solid black;
+    border-radius: 60px;
+    font-weight: bold;
+    background-color: #FC7EE4;
+    cursor: pointer;
+}
+
+.practiceReportBtn p {
+    margin: 0;
+    font-size: 250%;
+}
+
+@media (max-width: 1115px) {
+    .practicalWorkBtn p {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 925px) {
+    .practicalWorkBtn p {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 710px) {
+    .practicalWorkBtn p {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .practicalWorkBtn p {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1115px) {
+    .courseBtn p {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 925px) {
+    .courseBtn p {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 710px) {
+    .courseBtn p {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .courseBtn p {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1115px) {
+    .literatureBtn p {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 925px) {
+    .literatureBtn p {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 710px) {
+    .literatureBtn p {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .literatureBtn p {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1115px) {
+    .diplomaBtn p {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 925px) {
+    .diplomaBtn p {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 710px) {
+    .diplomaBtn p {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .diplomaBtn p {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1115px) {
+    .scientificWorkBtn p {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 925px) {
+    .scientificWorkBtn p {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 710px) {
+    .scientificWorkBtn p {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .scientificWorkBtn p {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1115px) {
+    .practiceReportBtn p {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 925px) {
+    .practiceReportBtn p {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 710px) {
+    .practiceReportBtn p {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .practiceReportBtn p {
+        font-size: 70%;
+    }
+}
