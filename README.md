@@ -26,4 +26,4 @@ EasyStudy - одностраничный сайт (landing), на котором
 - Axios (библиотека JS, интерфейс для выполнения HTTP-запросов)
 - React (веб-библиотека)
 
-![фото](D:/frontend/image.png)
+![фото](D:\frontend/image.png)
